@@ -27,9 +27,3 @@ This project demonstrates a complete ETL pipleline using Python, Pandas, and Pos
 * Imported data into tables with foreign key relationships
 
 
-
-2. **Campaign Data**
- * Split combined fields into normalized columns
- * Generated keys:
-   * `category_id`
-   * `subcategory`
