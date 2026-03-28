@@ -31,7 +31,7 @@ This project demonstrates a complete ETL pipleline using Python, Pandas, and Pos
 * `subcategory`
 * `contacts`
 * `campagin`
-Relationships:
+Relationships: \t
 * Campaign links to category, subcategory, and contact
 
 ## How to Run
