@@ -14,3 +14,4 @@ ETL Process
 1. **Extract**
  * Imported raw data from:
    * [crowdfunding.xlsx](https://github.com/TMJ30/Crowdfunding_ETL/blob/main/Resources/crowdfunding.xlsx)
+   * [contacts.xlsx](https://github.com/TMJ30/Crowdfunding_ETL/blob/main/Resources/contacts.xlsx)
