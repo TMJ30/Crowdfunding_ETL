@@ -12,8 +12,8 @@ This project demonstrates a complete ETL pipleline using Python, Pandas, and Pos
 
 ## ETL Workflow
 
-**Extract:** Load data from Excel files ( [crowdfunding.xlsx](https://github.com/TMJ30/Crowdfunding_ETL/blob/main/Resources/crowdfunding.xlsx)
-   * [contacts.xlsx](https://github.com/TMJ30/Crowdfunding_ETL/blob/main/Resources/contacts.xlsx) )
+**Extract:** Load data from Excel files ( [crowdfunding.xlsx](https://github.com/TMJ30/Crowdfunding_ETL/blob/main/Resources/crowdfunding.xlsx), [contacts.xlsx](https://github.com/TMJ30/Crowdfunding_ETL/blob/main/Resources/contacts.xlsx) )
+     
 **Transform**
 1. **Category & Subcategory**
  * Split combined column into:
