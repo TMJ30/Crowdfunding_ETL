@@ -15,13 +15,19 @@ This project demonstrates a complete ETL pipleline using Python, Pandas, and Pos
 **Extract:** Load data from Excel files ( [crowdfunding.xlsx](https://github.com/TMJ30/Crowdfunding_ETL/blob/main/Resources/crowdfunding.xlsx), [contacts.xlsx](https://github.com/TMJ30/Crowdfunding_ETL/blob/main/Resources/contacts.xlsx) )
      
 **Transform**
-1. **Category & Subcategory**
- * Split combined column into:
-   * `category`
-   * `subcategory`
- * Generated unique IDs:
-   * `category_id`
-   * `subcategory_id`
+* Cleaned and standardized columns
+* Split category and subcategory data
+* Created unique IDs from relational mapping
+* Converted data types (floats, timestamps)
+* Parsed contact names into first/last
+
+**Load**
+* Exported cleaned data to CSV files
+* Created relational schema in PostgreSQL
+* Imported data into tables with foreign key relationships
+
+
+
 2. **Campaign Data**
  * Split combined fields into normalized columns
  * Generated keys:
