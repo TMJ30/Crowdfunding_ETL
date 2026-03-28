@@ -10,11 +10,12 @@ This project demonstrates a complete ETL pipleline using Python, Pandas, and Pos
 * Design a relational database schema (ERD)
 * Load data into a PostgreSQL database with enforced relationships
 
-ETL Process
-1. **Extract**
- * Imported raw data from:
-   * [crowdfunding.xlsx](https://github.com/TMJ30/Crowdfunding_ETL/blob/main/Resources/crowdfunding.xlsx)
-   * [contacts.xlsx](https://github.com/TMJ30/Crowdfunding_ETL/blob/main/Resources/contacts.xlsx)
+**ETL Workflow**
+
+**Extract**
+* Imported raw data from:
+ * [crowdfunding.xlsx](https://github.com/TMJ30/Crowdfunding_ETL/blob/main/Resources/crowdfunding.xlsx)
+ * [contacts.xlsx](https://github.com/TMJ30/Crowdfunding_ETL/blob/main/Resources/contacts.xlsx)
 2. **Transform**
 **Category & Subcategory**
  * Split combined column into:
