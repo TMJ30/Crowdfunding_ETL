@@ -26,4 +26,18 @@ This project demonstrates a complete ETL pipleline using Python, Pandas, and Pos
 * Created relational schema in PostgreSQL
 * Imported data into tables with foreign key relationships
 
+## Data Model
+* `category`
+* `subcategory`
+* `contacts`
+* `campagin`
+Relationships:
+* Campaign links to category, subcategory, and contact
 
+## How to Run
+pip install pandas openpyxl psycopg2
+1. Run the ETL script or notebook
+2. Create the database
+CREATE DATABASE crowdfunding_db;
+3. Run the schema file
+4. Import CSV files into PostgreSQL
