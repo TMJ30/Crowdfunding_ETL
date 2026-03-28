@@ -31,13 +31,20 @@ This project demonstrates a complete ETL pipleline using Python, Pandas, and Pos
 * `subcategory`
 * `contacts`
 * `campagin`
-Relationships: \t
+
+Relationships: 
 * Campaign links to category, subcategory, and contact
 
 ## How to Run
 pip install pandas openpyxl psycopg2
 1. Run the ETL script or notebook
 2. Create the database
+
 CREATE DATABASE crowdfunding_db;
-3. Run the schema file
-4. Import CSV files into PostgreSQL
+4. Run the schema file
+5. Import CSV files into PostgreSQL
+
+## Key Takeaways
+* Practiced building and end-to-end ETL pipeline
+* Applied data cleaning and transformation techniques
+* Designed and implemented a relational database schema
